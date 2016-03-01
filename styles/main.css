@@ -3,16 +3,44 @@
 	height: 3.0625em;
 }
 
+.wordpress-img {
+	height: 2.125em;
+	width: 2.125em;
+	background-color: white;
+	display: inline-block;
+	margin-left: .8em;
+	margin-top: .4em;
+}
+
+.brand {
+	display: inline-block;
+	width: 7.4375em;
+	height: 2.0625em;
+	background-color: white;
+	margin-left: .8em;
+}
+
+.login-btn {
+	float: right;
+	border: none;
+	height: 100%;
+	font-size: .8em;
+	width: 5.6875em;
+	background-color: #006999;
+	display: inline-block;
+}
+
 .hero {
 	background-color: #344051;
 	text-align: center;
 	padding-bottom: 4em;
+
 }
 
 .h1-div {
 	width: 25.125em;
 	margin: 0 auto;
-	padding-top: 7.5em;
+	padding-top: 10em;
 	color: white;
 	font-weight: lighter;
 }
@@ -29,6 +57,7 @@
 	width: 14em;
 	background-color: #1D87B7;
 	border: .8em solid #212934;
+	margin-top: .8em;
 }
 
 .down-arrow {
@@ -46,6 +75,22 @@
 	margin: 0 auto 1.875em;
 }
 
+.attribute-inner-1 {
+	height: 3.5625em;
+	width: 3.0625em;
+	background-color: #4D5865;
+	float: left;
+	margin-top: .75em;
+}
+
+.attribute-inner-2 {
+	height: 2.875em;
+	width: 15.49em;
+	background-color: #4D5865;
+	float: right;
+	margin-right: .19em;
+}
+
 .wordpress-info-1 {
 	height: 12em;
 	background-color: #E8F0F5;
@@ -57,10 +102,32 @@
 }
 
 .features {
-	height: 15em;
 	width: 27.375em;
 	background-color: white;
 	margin: 1.9375em auto;
+	padding-top: 1.3125em;
+	padding-bottom: 2.375em;
+}
+
+.feature-img {
+	height: 3.875em;
+	width: 3.875em;
+	background-color: #C7D2D8;
+	margin: 0 auto;
+}
+
+.feature-text-1 {
+	height: 1.5em;
+	width: 25.4375em;
+	background-color: #C7D2D8;
+	margin: .75em auto;
+}
+
+.feature-text-2 {
+	height: 3em;
+	width: 25.5em;
+	background-color: #C7D2D8;
+	margin: .75em auto;
 }
 
 .wordpress-info-2 {
