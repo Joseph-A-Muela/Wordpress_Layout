@@ -1,3 +1,8 @@
+h5 {
+	font-weight: lighter;
+
+}
+
 .navbar {
 	background-color: #1080B0;
 	height: 3.0625em;
@@ -7,20 +12,28 @@
 	height: 2.125em;
 	width: 2.125em;
 	background-color: white;
-	display: inline-block;
+	float: left;
 	margin-left: .8em;
 	margin-top: .4em;
 }
 
 .brand {
-	display: inline-block;
+	float: left;
 	width: 7.4375em;
 	height: 2.0625em;
-	background-color: white;
+	text-align: center;
+	line-height: 2.4em;
+	color: white;
 	margin-left: .8em;
+	margin-top: .4em;
+}
+
+span {
+	color: #98CEE4;
 }
 
 .login-btn {
+	color: white;
 	float: right;
 	border: none;
 	height: 100%;
@@ -71,29 +84,41 @@
 .attributes {
 	height: 4.3em;
 	width: 19.3125em;
-	background-color: white;
-	margin: 0 auto 1.875em;
+	background-color: #344051;
+	margin: 1.575em auto;
 }
 
-.attribute-inner-1 {
+.attribute-div-1 {
 	height: 3.5625em;
-	width: 3.0625em;
-	background-color: #4D5865;
+	width: 3em;
+	background-color: white;
 	float: left;
-	margin-top: .75em;
+	margin-top: .9em;
+	margin-right: .5em;
 }
 
-.attribute-inner-2 {
-	height: 2.875em;
-	width: 15.49em;
-	background-color: #4D5865;
-	float: right;
-	margin-right: .19em;
+.attribute-div-2 {
+	color: #D5D6D7;
+	float: left;
+ 	text-align: left;
+ 	font-size: .98em;
+ 	line-height: .8em;
+}
+
+h3 {
+	color: white;
 }
 
 .wordpress-info-1 {
-	height: 12em;
+	height: 10em;
 	background-color: #E8F0F5;
+	text-align: center;
+	padding: 1em 1.5em;
+}
+
+h2 {
+	font-weight: lighter;
+	color: #314156;
 }
 
 .feature-section {
@@ -106,7 +131,7 @@
 	background-color: white;
 	margin: 1.9375em auto;
 	padding-top: 1.3125em;
-	padding-bottom: 2.375em;
+	margin-bottom: 1em;
 }
 
 .feature-img {
@@ -117,31 +142,42 @@
 }
 
 .feature-text-1 {
-	height: 1.5em;
 	width: 25.4375em;
-	background-color: #C7D2D8;
+	background-color: white;
 	margin: .75em auto;
+	text-align: center;
+	color: #426277;
+	font-weight: bolder;
 }
 
 .feature-text-2 {
-	height: 3em;
 	width: 25.5em;
-	background-color: #C7D2D8;
+	background-color: white;
 	margin: .75em auto;
+	text-align: center;
+	color: #426277;
+	padding-bottom: 1.7em;
 }
 
 .wordpress-info-2 {
 	background-color: #E8F0F5;
-	padding-top: 6.125em;
+	padding-top: .5em;
 	text-align: center;
+	font-weight: lighter;
+}
+
+.wordpress-info-text {
+	padding-bottom: 1.5em;
 }
 
 .btn2 {
-	height: 3.3125em;
-	width: 13em;
+	height: 2.5em;
+	width: 8.7em;
 	background-color: #1E8CBE;
-	margin-bottom: 1.5em;
+	margin-bottom: 1.2em;
 	border: none;
+	color: white;
+	font-size: 1.4em;
 }
 
 .footer {
@@ -174,7 +210,6 @@
 .img {
 	height: 1.5625em;
 	width: 8.2em;
-	background-color: white;
 	margin: .4em auto;
 }
 
