@@ -61,23 +61,20 @@ span {
 	box-sizing: border-box;
 }
 
-.h1-div {
-	width: 25.125em;
+ h1 {
+	width: 12.125em;
 	margin: 0 auto;
 	padding-top: 10em;
 	color: white;
-	line-height: 2.5em;
-}
-
-h1 {
-	font-size: 2.1em;
+	line-height: 1.5em;
 	font-weight: 500;
 }
 
-.p-div {
+
+.title-text {
 	width: 16.5em;
 	margin: 0 auto;
-	padding-top: .02em;
+	padding: 1em;
 	color: white;
 }
 
